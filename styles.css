@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+}
+
+header {
+  /*background-color: #873E16;
+  background-image: url(images/football.png);*/
+  background-color: #1A1D3A;
+  height: 200px;
+  margin: 0;
+  border-bottom: solid 60px #FCFCFC;
+}
+
+body {
+  background-color: #089900;
+  background-image: url(images/football-no-lines.png);
+
+
+/*background-image:  https://www.transparenttextures.com/football-no-lines.html */
+}
+
+h1 {
+  display: block;
+  /*border-top: dashed 20px #FCFCFC;*/
+}

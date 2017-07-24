@@ -2,10 +2,11 @@
   margin: 0;
   color: #D14B04;
   box-sizing: border-box;
+  font-family: "Ubuntu"
 }
 
 header {
-  background-color: #1A1D3A;
+  background-color: #002244;
   height: 170px;
   width: 100%;
   margin: 0;
@@ -18,12 +19,38 @@ nav {
   height: 100%;
 }
 
+.grid-transition {
+  display: flex;
+  align-items: flex-end;
+}
+
+.banner {
+  margin-left: auto;
+}
+
 h1 {
   display: inline-block;
   margin-left: auto;
   font-size: 50px;
   margin-bottom: 30px;
   margin-right: 20px;
+  font-family: "Cabin";
+  font-weight: 700;
+}
+
+
+h2 {
+  font-weight: 700;
+  display: block;
+  margin: 25px 20px;
+  font-size: 40px;
+}
+
+h3,
+h4,
+h5 {
+  font-family: "Cabin";
+  font-weight: 500;
 }
 
 h3 {
@@ -36,10 +63,17 @@ h3 {
   color: #E18C5F;
 }
 
-.nav-icon {
+.nav-icon, .nav-arrow {
   height: 20px;
   width: 20px;
+}
+
+.nav-icon {
   margin: 0 10px 40px 20px;
+}
+
+.nav-arrow {
+  margin-left: 10px;
 }
 
 h6 {
@@ -57,19 +91,13 @@ aside {
 }
 
 .logo {
-  height: 50px;
+  height: 29px;
   width: 50px;
   margin-right: 10px;
 }
 
-.border {
-  display: flex;
-  width: 100%;
-}
-
-
 body {
-  background-color: #089900;
+  background-color: #077E00;
   background-image:
    url(images/football-no-lines.png);
    z-index: 0;
@@ -86,21 +114,17 @@ section {
 .player-card {
   height: 400px;
   width: 290px;
-  background-color: #44445E;
-  border: solid 2px #373F46;
+  background-color: #E18C5F;
+  /*border: solid 2px #373F46;*/
   box-shadow: 5px 5px 5px #232321;
   margin: 5px;
 }
 
 .player-picture {
   height: 150px;
+  background-size: 300px 150px;
   display: flex;
   justify-content: space-between;
-}
-
-
-#jared {
-
 }
 
 #crick {
@@ -108,12 +132,7 @@ section {
     rgba(0, 0, 0, 0.35),
     rgba(0, 0, 0, 0.35)
   ), url("images/crick.jpg");
-  background-size: 300px 150px;
   margin-bottom: 0;
-}
-
-#Domanta {
-
 }
 
 #peko {
@@ -121,13 +140,7 @@ section {
     rgba(0, 0, 0, 0.35),
     rgba(0, 0, 0, 0.35)
   ), url("images/peko.jpg");
-  background-size: 300px 150px;
   margin-bottom: 0;
-}
-
-
-#derek {
-
 }
 
 #wolfe {
@@ -135,12 +148,7 @@ section {
     rgba(0, 0, 0, 0.35),
     rgba(0, 0, 0, 0.35)
   ), url("images/wolfe.jpg");
-  background-size: 300px 150px;
   margin-bottom: 0;
-}
-
-#shane {
-
 }
 
 #ray {
@@ -148,12 +156,7 @@ section {
     rgba(0, 0, 0, 0.35),
     rgba(0, 0, 0, 0.35)
   ), url("images/ray.jpg");
-  background-size: 300px 150px;
   margin-bottom: 0;
-}
-
-#todd {
-
 }
 
 #davis {
@@ -161,12 +164,7 @@ section {
     rgba(0, 0, 0, 0.35),
     rgba(0, 0, 0, 0.35)
   ), url("images/davis.jpg");
-  background-size: 300px 150px;
   margin-bottom: 0;
-}
-
-#brandon {
-
 }
 
 #marshall {
@@ -174,12 +172,7 @@ section {
     rgba(0, 0, 0, 0.35),
     rgba(0, 0, 0, 0.35)
   ), url("images/marshall.jpg");
-  background-size: 300px 150px;
   margin-bottom: 0;
-}
-
-#von {
-
 }
 
 #miller {
@@ -187,12 +180,7 @@ section {
     rgba(0, 0, 0, 0.35),
     rgba(0, 0, 0, 0.35)
   ), url("images/von.jpg");
-  background-size: 300px 150px;
   margin-bottom: 0;
-}
-
-#chris {
-
 }
 
 #harris {
@@ -200,12 +188,7 @@ section {
     rgba(0, 0, 0, 0.35),
     rgba(0, 0, 0, 0.35)
   ), url("images/chj.jpg");
-  background-size: 300px 150px;
   margin-bottom: 0;
-}
-
-#tj {
-
 }
 
 #ward {
@@ -213,12 +196,7 @@ section {
     rgba(0, 0, 0, 0.35),
     rgba(0, 0, 0, 0.35)
   ), url("images/ward.jpg");
-  background-size: 300px 150px;
   margin-bottom: 0;
-}
-
-#darian {
-
 }
 
 #stewart {
@@ -226,12 +204,7 @@ section {
     rgba(0, 0, 0, 0.35),
     rgba(0, 0, 0, 0.35)
   ), url("images/darian.jpg");
-  background-size: 300px 150px;
   margin-bottom: 0;
-}
-
-#aqib {
-
 }
 
 #talib {
@@ -239,28 +212,28 @@ section {
     rgba(0, 0, 0, 0.35),
     rgba(0, 0, 0, 0.35)
   ), url("images/aqib.jpg");
-  background-size: 300px 150px;
   margin-bottom: 0;
 }
 
 .player-number {
   padding: 15px;
   font-size: 35px;
-  color: white;
+  color: #E4E4E4;
   text-align: right;
 }
 
 h4,
 h5 {
   margin-bottom: 2px;
+  color: #002244;
 }
 
 .player-info {
-  padding: 15px 15px 0 15px;
+  padding: 10px 15px 0 15px;
 }
 
 p {
-  color: #E18C5F;
+  color: #2E4A66;
   margin-bottom: 15px;
 }
 
@@ -274,7 +247,7 @@ p {
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  background-color: #E18C5F;
+  background-color: #002244;
   margin-bottom: 15px;
 }
 
@@ -284,12 +257,340 @@ p {
   margin: 15px;
 }
 
-.stat-highlight {
-  font-size: 40px;
-  color: #D14B04;
+.football {
+  height: 50px;
+  width: 50px;
+  margin: 0 0 -10px 0;
 }
 
+.stat-highlight {
+  font-size: 40px;
+  color: #002244;
+}
 
+@media (max-width: 1250px) {
+  h4 {
+    font-size: 16px;
+  }
+
+  h5 {
+    font-size: 12px;
+  }
+
+  p {
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+
+  .player-card {
+    height: 340px;
+    width: 246.5px;
+  }
+
+  .player-picture {
+    height: 123.25px;
+    background-size: 246.5px 123.25px;
+  }
+
+  .icon {
+    height: 25px;
+    width: 25px;
+    margin: 10px;
+  }
+
+  .player-number {
+    font-size: 25px;
+    padding: 10px;
+  }
+  .player-info {
+    padding: 10px 10px 0 10px;
+  }
+
+  .byline {
+    font-size: 10px;
+  }
+
+  .social-media {
+    height: 35px;
+    margin-bottom: 10px;
+  }
+
+  .stat-highlight {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 1060px) {
+    h4 {
+    font-size: 14px;
+  }
+
+  h5 {
+    font-size: 10px;
+  }
+
+  p {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  .player-card {
+    height: 300px;
+    width: 217.5px;
+  }
+
+  .player-picture {
+    height: 108.75px;
+    background-size: 217.5px 108.75px;
+  }
+
+  .icon {
+    height: 20px;
+    width: 20px;
+  }
+
+  .player-number {
+    font-size: 25px;
+  }
+  .player-info {
+    padding: 10px 10px 0 10px;
+  }
+
+  .byline {
+    font-size: 8px;
+  }
+
+  .social-media {
+    height: 30px;
+    margin-bottom: 8px;
+  }
+
+  .stat-highlight {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 960px) {
+  nav {
+    display: grid;
+    grid-template-rows: repeat(10, 10%);
+    align-items: flex-end;
+    height: 100%;
+  }
+
+  h1 {
+    text-align: center;
+    display: inline-block;
+    margin-right: 50%;
+    font-size: 50px;
+    margin-bottom: 0;
+  }
+
+  h3 {
+    display: inline-block;
+    font-size: 20px;
+    padding: 0;
+  }
+
+  h4 {
+    font-size: 25px;
+  }
+
+  aside {
+    grid-row-end: 1;
+    grid-row-end: 4;
+    display: inline-block;
+  }
+
+  .banner {
+    grid-row-end: 4;
+    grid-row-end: 8;
+  }
+
+  .grid-transition {
+    grid-row-end: 8;
+    grid-row-end: 11;
+  }
+  .nav-icon, .nav-arrow {
+    height: 20px;
+    width: 20px;
+  }
+
+  .nav-icon {
+    margin: 0;
+  }
+
+  .nav-arrow {
+    margin-left: 10px;
+  }
+
+  h6 {
+    display: inline-block;
+    font-size: 14px;
+  }
+
+  .logo {
+    height: 29px;
+    width: 50px;
+    margin-right: 10px;
+  }
+
+  h5 {
+    font-size: 19px;
+  }
+
+  h4,
+  h5 {
+    margin-bottom: 2px;
+  }
+
+  p {
+    font-size: 23px;
+    margin-bottom: 21px;
+  }
+  .player-card {
+    height: 560px;
+    width: 406px;
+    margin: 0 50px 20px 50px;
+  }
+
+  .player-picture {
+    background-size: 406px 203px;
+    height: 203px;
+  }
+
+  .icon {
+    height: 50px;
+    width: 50px;
+    margin: 15px;
+  }
+
+  .player-number {
+    font-size: 55px;
+    padding: 15px;
+  }
+  .player-info {
+    padding: 10px 15px 0 15px;
+  }
+
+  .byline {
+    font-size: 18px;
+  }
+
+  .social-media {
+    height: 70px;
+  }
+
+  .stat-highlight {
+    font-size: 60px;
+  }
+}
+
+@media (min-width: 1530px) {
+  h4 {
+    font-size: 22px;
+  }
+
+  h5 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 20px;
+    margin-bottom: 18px;
+  }
+
+  .player-card {
+    height: 500px;
+    width: 362.5px;
+    margin-bottom: 10px;
+  }
+
+  .player-picture {
+    height: 181.25px;
+    background-size: 362.5px 181.25px;
+  }
+
+  .icon {
+    height: 40px;
+    width: 40px;
+  }
+
+  .player-number {
+    font-size: 47px;
+  }
+  .player-info {
+    padding: 10px 20px 0 20px;
+  }
+
+  .byline {
+    font-size: 17px;
+  }
+
+  .social-media {
+    height: 57px;
+  }
+
+  .stat-highlight {
+    font-size: 52px;
+  }
+
+}
+
+@media (min-width: 1700px) {
+
+  h4 {
+    font-size: 25px;
+  }
+
+  h5 {
+    font-size: 19px;
+  }
+
+  h4,
+  h5 {
+    margin-bottom: 2px;
+  }
+
+  p {
+    font-size: 23px;
+    margin-bottom: 21px;
+  }
+  .player-card {
+    height: 560px;
+    width: 406px;
+    margin-bottom: 15px;
+  }
+
+  .player-picture {
+    background-size: 406px 203px;
+    height: 203px;
+  }
+
+  .icon {
+    height: 50px;
+    width: 50px;
+  }
+
+  .player-number {
+    font-size: 55px;
+  }
+  .player-info {
+    padding: 15px 25px 0 25px;
+  }
+
+  .byline {
+    font-size: 16px;
+  }
+
+  .social-media {
+    height: 70px;
+  }
+
+  .stat-highlight {
+    font-size: 60px;
+  }
+}
 
 
 /*background-image:  https://www.transparenttextures.com/football-no-lines.html */

@@ -5,8 +5,6 @@
 }
 
 header {
-  /*background-color: #873E16;
-  background-image: url(images/football.png);*/
   background-color: #1A1D3A;
   height: 170px;
   width: 100%;
@@ -32,6 +30,10 @@ h3 {
   display: inline-block;
   font-size: 20px;
   padding: 0 30px 40px 0;
+}
+
+.selected {
+  color: #E18C5F;
 }
 
 .nav-icon {
@@ -73,17 +75,107 @@ body {
    z-index: 0;
 }
 
+section {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  align-content: space-between;
+  justify-content: space-around;
+  padding: 10px;
+}
+
 .player-card {
   height: 400px;
-  width: 300px;
+  width: 290px;
   background-color: #44445E;
   border: solid 2px #373F46;
+  box-shadow: 5px 5px 5px #232321;
+  margin: 5px;
 }
 
 .player-picture {
   height: 150px;
   display: flex;
   justify-content: space-between;
+}
+
+
+#jared {
+
+}
+
+#crick {
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.35),
+    rgba(0, 0, 0, 0.35)
+  ), url("images/crick.jpg");
+  background-size: 300px 150px;
+  margin-bottom: 0;
+}
+
+#Domanta {
+
+}
+
+#peko {
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.35),
+    rgba(0, 0, 0, 0.35)
+  ), url("images/peko.jpg");
+  background-size: 300px 150px;
+  margin-bottom: 0;
+}
+
+
+#derek {
+
+}
+
+#wolfe {
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.35),
+    rgba(0, 0, 0, 0.35)
+  ), url("images/wolfe.jpg");
+  background-size: 300px 150px;
+  margin-bottom: 0;
+}
+
+#shane {
+
+}
+
+#ray {
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.35),
+    rgba(0, 0, 0, 0.35)
+  ), url("images/ray.jpg");
+  background-size: 300px 150px;
+  margin-bottom: 0;
+}
+
+#todd {
+
+}
+
+#davis {
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.35),
+    rgba(0, 0, 0, 0.35)
+  ), url("images/davis.jpg");
+  background-size: 300px 150px;
+  margin-bottom: 0;
+}
+
+#brandon {
+
+}
+
+#marshall {
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.35),
+    rgba(0, 0, 0, 0.35)
+  ), url("images/marshall.jpg");
+  background-size: 300px 150px;
+  margin-bottom: 0;
 }
 
 #von {
@@ -95,6 +187,58 @@ body {
     rgba(0, 0, 0, 0.35),
     rgba(0, 0, 0, 0.35)
   ), url("images/von.jpg");
+  background-size: 300px 150px;
+  margin-bottom: 0;
+}
+
+#chris {
+
+}
+
+#harris {
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.35),
+    rgba(0, 0, 0, 0.35)
+  ), url("images/chj.jpg");
+  background-size: 300px 150px;
+  margin-bottom: 0;
+}
+
+#tj {
+
+}
+
+#ward {
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.35),
+    rgba(0, 0, 0, 0.35)
+  ), url("images/ward.jpg");
+  background-size: 300px 150px;
+  margin-bottom: 0;
+}
+
+#darian {
+
+}
+
+#stewart {
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.35),
+    rgba(0, 0, 0, 0.35)
+  ), url("images/darian.jpg");
+  background-size: 300px 150px;
+  margin-bottom: 0;
+}
+
+#aqib {
+
+}
+
+#talib {
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.35),
+    rgba(0, 0, 0, 0.35)
+  ), url("images/aqib.jpg");
   background-size: 300px 150px;
   margin-bottom: 0;
 }
@@ -112,7 +256,7 @@ h5 {
 }
 
 .player-info {
-  padding: 15px;
+  padding: 15px 15px 0 15px;
 }
 
 p {

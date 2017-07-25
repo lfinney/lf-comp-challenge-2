@@ -97,6 +97,7 @@ section {
   flex-wrap: wrap-reverse;
   justify-content: space-around;
   padding: 0 10px;
+  margin-bottom: 20px;
 }
 
 .grid-transition {
@@ -128,8 +129,6 @@ section {
   top: 20px;
 }
 
-
-
 .logo {
   height: 29px;
   position: fixed;
@@ -142,7 +141,7 @@ section {
   background-color: #E18C5F;
   box-shadow: 5px 5px 5px #232321;
   height: 400px;
-  margin: 5px;
+  margin: 9px;
   width: 290px;
 }
 
@@ -479,7 +478,7 @@ section {
   .player-card {
     clear: both;
     height: 560px;
-    margin-bottom: 20px;
+    margin: 15px 35px;
     width: 406px;
   }
 
